@@ -1,6 +1,6 @@
-# homebridge-rachio-platform
+# homebridge-rachio
 
-Rachio plugin for Homebridge
+Rachio plugin for Homebridge (will work with homebridge v1.3+)
 
 <p align="center">
   <img width=300 src="https://github.com/leehendricks/homebridge-rachio-platform/blob/master/docs/example.gif?raw=true">
@@ -10,11 +10,11 @@ Rachio plugin for Homebridge
 # Installation
 
 1. Install homebridge using: `npm install -g homebridge`
-2. Install this plugin using: `npm install -g @leehendricks/homebridge-rachio-platform`
+2. Install this plugin using: `npm install -g homebridge-rachio`
 3. Update your configuration file. See `config.json` snippet below.
 
 # Webhook Support
-`homebridge-rachio-platform` uses webhooks to update Homekit accessory status in real time when a Rachio schedule is executing.
+`homebridge-rachio` uses webhooks to update Homekit accessory status in real time when a Rachio schedule is executing.
 
 In order to support webhooks, you must know your external network IP address and have the ability to open/forward a port from that IP address to your internal Homebridge server (typically a modem or router on your local network). Please do not file issues to this repository related to network configuration issues.
 
